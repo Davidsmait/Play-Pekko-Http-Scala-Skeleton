@@ -1,6 +1,6 @@
 ThisBuild / version := "0.1.0-SNAPSHOT"
 
-Compile / mainClass := Some("com.davidsan.pekkohttp")
+Compile / mainClass := Some("com.skeleton.pekkohttp")
 
 enablePlugins(ScalafmtPlugin)
 
@@ -26,5 +26,6 @@ lazy val root = (project in file("."))
         "org.apache.pekko"      %% "pekko-slf4j"               % pekkoVersion,
         "ch.qos.logback"        %  "logback-classic"           % logbackV,
       )
-    }
+    },
+    libraryDependencies += guice
   )
