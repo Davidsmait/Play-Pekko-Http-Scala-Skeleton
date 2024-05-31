@@ -3,7 +3,8 @@
 # https://www.playframework.com/documentation/latest/ScalaRouting
 # ~~~~
 
-GET     /                           controllers.domain.pages.actions.PagesController.index()
+
+GET     /                           api.src.main.scala.com.skeleton.pekkohttp.pages.controllers.PagesController.index()
 
 
 # Map static resources from the /public folder to the /assets URL path

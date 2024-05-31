@@ -1,8 +1,8 @@
-package controllers.domain.pages.actions
-import play.api.mvc._
-import play.api.mvc.AbstractController
+package api.src.main.scala.com.skeleton.pekkohttp.pages.controllers
 
-import javax.inject.{ Inject, Singleton }
+import play.api.mvc._
+
+import javax.inject.{Inject, Singleton}
 
 @Singleton
 class PagesControllerImpl @Inject() (cc: ControllerComponents)
