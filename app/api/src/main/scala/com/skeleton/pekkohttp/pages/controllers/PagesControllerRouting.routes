@@ -1,0 +1,3 @@
+# conf/PagesControllerRouting.routes
+
+GET     /                           api.src.main.scala.com.skeleton.pekkohttp.pages.controllers.PagesController.index()

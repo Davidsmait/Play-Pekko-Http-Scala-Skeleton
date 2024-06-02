@@ -2,7 +2,7 @@ package api.src.main.scala.com.skeleton.pekkohttp.pages.controllers
 
 import play.api.mvc._
 
-import javax.inject.{Inject, Singleton}
+import javax.inject.{ Inject, Singleton }
 
 @Singleton
 class PagesControllerImpl @Inject() (cc: ControllerComponents)

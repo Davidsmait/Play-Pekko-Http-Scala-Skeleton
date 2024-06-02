@@ -1,6 +1,9 @@
 package api.src.main.scala.com.skeleton.pekkohttp
 
-import api.src.main.scala.com.skeleton.pekkohttp.pages.controllers.{PagesController, PagesControllerImpl}
+import api.src.main.scala.com.skeleton.pekkohttp.pages.controllers.{
+  PagesController,
+  PagesControllerImpl
+}
 import com.google.inject.AbstractModule
 import play.api.libs.concurrent.PekkoGuiceSupport
 

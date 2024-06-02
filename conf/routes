@@ -2,10 +2,9 @@
 # This file defines all application routes (Higher priority routes first)
 # https://www.playframework.com/documentation/latest/ScalaRouting
 # ~~~~
+# TO DO: cannot obtain routing file
+#->      /api                        api.Routes
 
-
-GET     /                           api.src.main.scala.com.skeleton.pekkohttp.pages.controllers.PagesController.index()
-
-
+GET     /                        api.src.main.scala.com.skeleton.pekkohttp.pages.controllers.PagesController.index()
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
