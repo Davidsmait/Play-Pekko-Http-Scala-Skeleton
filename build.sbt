@@ -17,3 +17,6 @@ lazy val root = (project in file("."))
     Common.settings,
     name := "Pekko HTTP Scala Skeleton",
   )
+
+lazy val main = (project in file("src"))
+

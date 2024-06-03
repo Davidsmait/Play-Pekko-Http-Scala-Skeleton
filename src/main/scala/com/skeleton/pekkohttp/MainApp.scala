@@ -1,4 +1,4 @@
-package com.davidsan.pekkohttp
+package com.skeleton.pekkohttp
 
 import org.apache.pekko.actor.typed.ActorSystem
 import org.apache.pekko.actor.typed.scaladsl.Behaviors
